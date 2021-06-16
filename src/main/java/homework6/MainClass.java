@@ -33,7 +33,6 @@ public class MainClass {
 Если в нем нет хоть одной четверки или единицы, то метод вернет false;
 Написать набор тестов для этого метода (по 3-4 варианта входных данных).
  */
-
     public int[] splitByLastFour(int[] arr) {
         List<Integer> list = fromIntArrayToIntegerArray(arr);
         if (!list.contains(4)) throw new RuntimeException("В массиве нет четверки");
